@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ns0:Message xmlns:ns0="www.boltrics.nl/receivepurchaseorder:v1.00">
+    <ns0:Header>
+        <ns0:MessageID>0d3fa7e8-2769-482e-8f8d-b664ccc76450</ns0:MessageID>
+        <ns0:CreationDateTime>2024-03-12T17:01:39</ns0:CreationDateTime>
+        <ns0:ProcesAction>INSERT</ns0:ProcesAction>
+        <ns0:FromTradingPartner>Atlona</ns0:FromTradingPartner>
+        <ns0:ToTradingPartner>8712423021815</ns0:ToTradingPartner>
+        <ns0:CompanyName>VCK Logistics SCS</ns0:CompanyName>
+    </ns0:Header>
+    <ns0:Documents>
+        <ns0:Document>
+            <ns0:EANCode>KP000124</ns0:EANCode>
+            <ns0:DocumentDate>2024-03-12</ns0:DocumentDate>
+            <ns0:ExternalDocumentNo>24400363</ns0:ExternalDocumentNo>
+            <ns0:AnnouncedDate>2024-05-18</ns0:AnnouncedDate>
+            <ns0:OrderTypeCode>STANDARD</ns0:OrderTypeCode>
+            <ns0:SenderAddress>
+                <ns0:Name>ProDVX Europe BV</ns0:Name>
+                <ns0:Address>Europalaan 12F</ns0:Address>
+                <ns0:Address2>5232 BC Den Bosch</ns0:Address2>
+                <ns0:City/>
+                <ns0:CountryCode>NL</ns0:CountryCode>
+            </ns0:SenderAddress>
+            <ns0:ShipToAddress>
+                <ns0:Name>VCK Logistics SCS bv</ns0:Name>
+                <ns0:Address>Walravenlaan 11</ns0:Address>
+                <ns0:City>Schiphol-Rijk</ns0:City>
+                <ns0:PostCode>1119 ME</ns0:PostCode>
+                <ns0:CountryCode>NL</ns0:CountryCode>
+            </ns0:ShipToAddress>
+            <ns0:SenderReference>24400363</ns0:SenderReference>
+            <ns0:Attributes/>
+            <ns0:DocumentLines>
+                <ns0:DocumentLine>
+                    <ns0:LineNo>1</ns0:LineNo>
+                    <ns0:CustomerNo>Atlona</ns0:CustomerNo>
+                    <ns0:ExternalNo>AT-VTP-1000VL-BL</ns0:ExternalNo>
+                    <ns0:Quantity>75</ns0:Quantity>
+                    <ns0:Attribute01>U</ns0:Attribute01>
+                    <ns0:Attribute02>VCK_FGI</ns0:Attribute02>
+                    <ns0:Attribute04>303008</ns0:Attribute04>
+                    <ns0:Attribute05>1</ns0:Attribute05>
+                    <ns0:Attributes>
+                        <ns0:Attribute>
+                            <ns0:Code>CO_NO</ns0:Code>
+                            <ns0:Value>24400363</ns0:Value>
+                        </ns0:Attribute>
+                        <ns0:Attribute>
+                            <ns0:Code>OrderNo</ns0:Code>
+                            <ns0:Value>303008</ns0:Value>
+                        </ns0:Attribute>
+                        <ns0:Attribute>
+                            <ns0:Code>LineNo</ns0:Code>
+                            <ns0:Value>1</ns0:Value>
+                        </ns0:Attribute>
+                        <ns0:Attribute>
+                            <ns0:Code>ExpDate</ns0:Code>
+                            <ns0:Value>18-05-2024</ns0:Value>
+                        </ns0:Attribute>
+                        <ns0:Attribute>
+                            <ns0:Code>CUSTITEM</ns0:Code>
+                            <ns0:Value>AT-VTP-1000VL-BL</ns0:Value>
+                        </ns0:Attribute>
+                        <ns0:Attribute>
+                            <ns0:Code>PREALERT</ns0:Code>
+                            <ns0:Value>YES</ns0:Value>
+                        </ns0:Attribute>
+                    </ns0:Attributes>
+                </ns0:DocumentLine>
+            </ns0:DocumentLines>
+        </ns0:Document>
+    </ns0:Documents>
+</ns0:Message>

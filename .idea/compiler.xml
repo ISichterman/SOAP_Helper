@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Standard logging" />
+        <module name="CheckFileSize" />
+        <module name="SOAP_helper" />
+        <module name="Removezoek" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="CheckFileSize" target="1.8" />
+      <module name="Removezoek" target="1.8" />
+      <module name="SOAP_helper" target="1.8" />
+      <module name="Standard logging" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

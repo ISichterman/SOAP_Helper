@@ -1,0 +1,23 @@
+<Soap:Envelope xmlns:Soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <Soap:Body>
+        <PostXml_Result xmlns="urn:microsoft-dynamics-schemas/codeunit/DIPost">
+            <return_value>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+                &lt;Response&gt;
+                &lt;Status&gt;Succeeded&lt;/Status&gt;
+                &lt;EntryNo&gt;53032258&lt;/EntryNo&gt;
+                &lt;ProcessStatus&gt;INSERT&lt;/ProcessStatus&gt;
+                &lt;MessageID&gt;7412772449903768682&lt;/MessageID&gt;
+                &lt;MessageType&gt;RCV-PURCHASE-ORDER&lt;/MessageType&gt;
+                &lt;SourceType&gt;Customer&lt;/SourceType&gt;
+                &lt;SourceNo&gt;K00009&lt;/SourceNo&gt;
+                &lt;DateTimeReceived&gt;2024-03-13T12:05:17&lt;/DateTimeReceived&gt;
+                &lt;DateReceived&gt;2024-03-13&lt;/DateReceived&gt;
+                &lt;TimeReceived&gt;12:05:17&lt;/TimeReceived&gt;
+                &lt;Instance&gt;WISH-063&lt;/Instance&gt;
+                &lt;Database&gt;Dynamics_WISH_063&lt;/Database&gt;
+                &lt;Company&gt;VCK Logistics SCS&lt;/Company&gt;
+                &lt;Username&gt;DYNAMICS_BIZTALK&lt;/Username&gt;
+                &lt;/Response&gt;</return_value>
+        </PostXml_Result>
+    </Soap:Body>
+</Soap:Envelope>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+               xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <submit xmlns="urn:allin:webservice:standard">
+            <Root xmlns="http://schemas.microsoft.com/BizTalk/2003/Any">
+                <OutgoingFile xmlns="urn:allin:schemas:biztalk:webservice:outgoingfile">
+                    <CustomerID>Rell-Electronics</CustomerID>
+                    <ProjectID>RELL</ProjectID>
+                    <OrderType>ORD</OrderType>
+                    <Addresses>
+                        <ShipFrom>
+                            <AddressID>10145710</AddressID>
+                            <Name>Richardson Electronics Benelux BV</Name>
+                            <Address>C/O Logicall SCS BV</Address>
+                            <Address2>Walravenlaan 11</Address2>
+                            <PostalCode>1119 ME</PostalCode>
+                            <City>Schiphol-Rijk</City>
+                            <CountryID>NL</CountryID>
+                        </ShipFrom>
+                        <ShipTo>
+                            <AddressID>10182992</AddressID>
+                            <Name>INOX CENTAR HOEGGER DOO</Name>
+                            <Name2 />
+                            <Contact />
+                            <Address>Gospodarska 5 </Address>
+                            <Address2 />
+                            <State />
+                            <PostalCode>42202</PostalCode>
+                            <City>TRNOVEC</City>
+                            <CountryID>HR</CountryID>
+                            <TaxID>HR41073511179</TaxID>
+                            <CarrierAccountNo />
+                        </ShipTo>
+                        <BillTo>
+                            <AddressID>10145901</AddressID>
+                            <Name>Richardson Electronics GmbH</Name>
+                            <Contact />
+                            <Address>Boschstrasse 8</Address>
+                            <Address2 />
+                            <State />
+                            <PostalCode>82178</PostalCode>
+                            <City>Puchheim</City>
+                            <CountryID>DE</CountryID>
+                            <TaxID>DE128240232</TaxID>
+                        </BillTo>
+                        <ShippingPoint>
+                            <AddressID>10000085</AddressID>
+                            <Name />
+                            <Address />
+                            <Address2 />
+                            <State />
+                            <PostalCode />
+                            <City />
+                            <CountryID />
+                        </ShippingPoint>
+                    </Addresses>
+                    <RequestedShipDate>2024-03-20T00:00:00</RequestedShipDate>
+                    <Forwarder>1320</Forwarder>
+                    <ForwarderService>Prepaid &amp; Add</ForwarderService>
+                    <DeliveryTerms>
+                        <Terms>DAP Door</Terms>
+                        <City>Prepaid &amp; Add</City>
+                    </DeliveryTerms>
+                    <References>
+                        <Instruction>SHIP ORDER COMPLETE</Instruction>
+                        <CustomerReference>INV10402717</CustomerReference>
+                        <ReceiverReference>Email, 20.03.2024</ReceiverReference>
+                        <ShipmentNo>INV10402717</ShipmentNo>
+                        <RMANumber />
+                        <CustomerData>CO_NO=168552</CustomerData>
+                    </References>
+                    <Items>
+                        <Item>
+                            <ItemNo>RNT149/27C:RE</ItemNo>
+                            <ItemNoReceiver>HG10.149C</ItemNoReceiver>
+                            <Description>NOZZLE 2.7MM</Description>
+                            <Quantity>1.00000</Quantity>
+                            <UnitPrice>14.36</UnitPrice>
+                            <CurrencyCode>EUR</CurrencyCode>
+                            <CountryOfOrigin>CZ</CountryOfOrigin>
+                            <Warehouse>570</Warehouse>
+                            <OrderNo>ORD10584255</OrderNo>
+                            <LineNo>10892427</LineNo>
+                            <References>
+                                <CustomerReference>ORD10584255_10892427</CustomerReference>
+                            </References>
+                        </Item>
+                        <Item>
+                            <ItemNo>RLT226/LRGPAPER:RE</ItemNo>
+                            <ItemNoReceiver>1687226</ItemNoReceiver>
+                            <Description>Cleaning Paper</Description>
+                            <Quantity>3.00000</Quantity>
+                            <UnitPrice>5.15</UnitPrice>
+                            <CurrencyCode>EUR</CurrencyCode>
+                            <CountryOfOrigin>CH</CountryOfOrigin>
+                            <Warehouse>570</Warehouse>
+                            <OrderNo>ORD10584255</OrderNo>
+                            <LineNo>10892428</LineNo>
+                            <References>
+                                <CustomerReference>ORD10584255_10892428</CustomerReference>
+                            </References>
+                        </Item>
+                        <Item>
+                            <ItemNo>RHT109/H:RE</ItemNo>
+                            <ItemNoReceiver>HG10.109</ItemNoReceiver>
+                            <Description>NOZZLE HOLDER</Description>
+                            <Quantity>2.00000</Quantity>
+                            <UnitPrice>26.93</UnitPrice>
+                            <CurrencyCode>EUR</CurrencyCode>
+                            <CountryOfOrigin>CN</CountryOfOrigin>
+                            <Warehouse>570</Warehouse>
+                            <OrderNo>ORD10584255</OrderNo>
+                            <LineNo>10892429</LineNo>
+                            <References>
+                                <CustomerReference>ORD10584255_10892429</CustomerReference>
+                            </References>
+                        </Item>
+                        <Item>
+                            <ItemNo>RMT163/BAB:RE</ItemNo>
+                            <ItemNoReceiver>HG10.163</ItemNoReceiver>
+                            <Description>Break Away Bar</Description>
+                            <Quantity>2.00000</Quantity>
+                            <UnitPrice>23.74</UnitPrice>
+                            <CurrencyCode>EUR</CurrencyCode>
+                            <CountryOfOrigin>IT</CountryOfOrigin>
+                            <Warehouse>570</Warehouse>
+                            <OrderNo>ORD10584255</OrderNo>
+                            <LineNo>10892430</LineNo>
+                            <References>
+                                <CustomerReference>ORD10584255_10892430</CustomerReference>
+                            </References>
+                        </Item>
+                        <Item>
+                            <ItemNo>RTT162/TC:RE</ItemNo>
+                            <ItemNoReceiver>HG10.162</ItemNoReceiver>
+                            <Description>TEFLON COVER</Description>
+                            <Quantity>3.00000</Quantity>
+                            <UnitPrice>3.46</UnitPrice>
+                            <CurrencyCode>EUR</CurrencyCode>
+                            <CountryOfOrigin>DE</CountryOfOrigin>
+                            <Warehouse>570</Warehouse>
+                            <OrderNo>ORD10584255</OrderNo>
+                            <LineNo>10892431</LineNo>
+                            <References>
+                                <CustomerReference>ORD10584255_10892431</CustomerReference>
+                            </References>
+                        </Item>
+                    </Items>
+                </OutgoingFile>
+            </Root>
+        </submit>
+    </soap:Body>
+</soap:Envelope>
